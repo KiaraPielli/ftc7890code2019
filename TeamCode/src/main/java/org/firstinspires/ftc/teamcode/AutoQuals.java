@@ -9,15 +9,14 @@ import com.qualcomm.robotcore.hardware.DistanceSensor;
 import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.hardware.CRServo;
 import com.qualcomm.robotcore.util.ElapsedTime;
-
 import org.firstinspires.ftc.robotcore.external.navigation.DistanceUnit;
 
 /**
  * Created by wenhuizhao on 1/11/19.
  */
 
-@Autonomous(name="autonomous for quals", group="LinearOpMode")
-public class AutoQuals extends LinearOpMode {
+@Autonomous(name="PlzWork", group="LinearOpMode")
+public class PlzWork extends LinearOpMode {
     private ElapsedTime runtime = new ElapsedTime();
 
     DcMotor leftFront, leftBack, rightFront, rightBack;
